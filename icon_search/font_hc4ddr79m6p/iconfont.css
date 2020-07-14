@@ -1,0 +1,44 @@
+@font-face {
+	font-family: "iconfont";
+	src: url('iconfont.eot?t=1594266453743');
+	/* IE9 */
+	src: url('iconfont.eot?t=1594266453743#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAO4AAsAAAAAB9gAAANsAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDMgqCfIJnATYCJAMUCwwABCAFhG0HQhvtBiMRZnOwT/bXydNhhffYDox0+hYRpre8nNIgg1aN1ad86hx67GsS6Y0KrOxrIqjf6/ZeST6tOlBREIkv1TIejYpCMR40KIQFhzDdg1DNlaoYdBDUrdv250+eIC1OoTxCCYxmv+meNSQKF4ViS+zYatrO5Hpd6UtT4P8e+BdHmIA8AWnucz78/uwrTQxtzkpUekjbyYlIbFIlkphHxDuHsqvP3+v3WxXtRKJu+41e3kPVIiExZKYzNJrYiUlqdyFdqfmW4bVdqsO6mcCgeV2xcbg9a0tBdwWiZ41XW5mgooiZRmhVnFjEiapJb97Xao6D34/v2jpGUjN64M6zD2v3F+/42fVIRNPZIZ5GRheF2K909lSU7MoG9b9rKxjUSNJrXcP43VEY0gOpB9k/PEKWFKKFlg+DFUwVXusOQfDWIMi8jQkS7zvxh2muYBAxvYczjt75iJBl0T4nXSQUkqKGlmYW2dTYlcngdBolkyCVGrblMMTpC2Qy4aU5OV6ZlKHl2cUJKQSuH6fzuCVunpvKgmRyNt1SJ+hq616URIzt/fVFaHnjYEcKlxawkjIVIUJRqyQI8y1TrTKu7EbAIEgQyG5hETvh3mUqFWaH2fXkuwJGDAjqfQuQB7/+ocDNbebe8FHpj6HMQcShrqVNL9PPmKZ+thZIQB6KFhlmDLKWNrv92PNg587P9En6Xt5c35+ELqn+oiXE2eXE0jh/v1S6ikLuwRPGDrgwegWhfaYD8Kp0mef0110z+upPbQ3pNA9/4WEezTnX/w27gSPTSxgE+1r3VCMhin7YtA6KJKGmWjSRo4pgo0C1IHPb4n/T85u8k16mUc90Lic0ZhJI2uYga3TIhd6FasgStDSWYdCi7dOHTNlXomwsOCIQxl1AMuoGsnEP5EJ/hmrWL7SMBxj0xTtGFxyahB1sBT3FEPw/sAHnZFt0EFbe0VSpJ2lJwHqjlDYCq/kynzlijjLFIeXHrFUJSDiDA7kdpilDIRxjoPNItdgsFlT1TfOAs9rAlkAehULA9wdYAZYjb7waFH7+DhmVlEcaBur8b0iU7OxgZW7ZgXxU5p0GbuU1pQ9jTSkCiGAZcCB2lLIkA0X1uhgKqLloQLywscBh1FU5X16dveMJGESfXiOjomPE1OohafO/4rZYE2nzj6taDQ==') format('woff2'),
+		url('iconfont.woff?t=1594266453743') format('woff'),
+		url('iconfont.ttf?t=1594266453743') format('truetype'),
+		/* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+		url('iconfont.svg?t=1594266453743#iconfont') format('svg');
+	/* iOS 4.1- */
+}
+
+.iconfont-body {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-left:before {
+	font-size: 25px;
+	font-weight: 500;
+	content: "\e501";
+}
+
+.icon-zuo:before {
+	font-size: 18px;
+	content: "\e619";
+}
+
+.icon-right:before {
+	font-size: 18px;
+	color: #333;
+	content: "\e602";
+}
+
+.icon-you:before {
+	font-size: 25px;
+	font-weight: 500;
+	content: "\e744";
+}

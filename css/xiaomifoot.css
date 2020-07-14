@@ -1,0 +1,178 @@
+.xiaomifoot {
+	height: auto;
+	position: relative;
+}
+
+.xiaomifoot_01 {
+	width: 1214.09px;
+	margin: 0 auto;
+}
+
+.sp_discounts {
+	position: relative;
+	padding: 27px 0;
+}
+
+.sp_discounts>ul {
+	width: 1214.09px;
+	height: 25px;
+	margin: 0;
+	padding: 0;
+}
+
+.sp_discounts>ul>li {
+	display: inline-block;
+	width: 233px;
+	height: 25px;
+	border-left: 1px solid #6b6b6b;
+	float: left;
+	line-height: 25px;
+	text-align: center;
+	font-size: 18px;
+	color: #555555;
+	transition: color .2s ease 0s;
+	cursor: pointer;
+}
+
+.sp_discounts>ul>li>span {
+	font-size: 20px;
+	margin-right: 5px;
+	color: #555555;
+}
+
+.sp_discounts>ul>li:hover span {
+	color: rgb(255, 103, 0);
+}
+
+.sp_discounts>ul>li:hover {
+	color: rgb(255, 103, 0);
+}
+
+/* 尾部信息列表 */
+.xiaomifoot_02 {
+	border-top: 1px solid #333;
+	height: auto;
+	padding-top: 30px;
+}
+
+.xiaomifoot_02>ul {
+	display: inline-block;
+	width: 160px;
+	margin: 0;
+	float: left;
+}
+
+.xiaomifoot_02 li {
+	font-size: 14px;
+	line-height: 1.25;
+	color: #262626;
+	padding: 5px 0 5px 0;
+}
+
+.xiaomifoot_ma {
+	margin-bottom: 10px;
+}
+
+.xiaomifoot_02 a {
+	text-decoration: none;
+	font-size: 12px;
+	color: #4b4b4b;
+}
+
+.xiaomifoot_02 a:hover {
+	color: rgb(255, 103, 0);
+}
+
+/* 客服专栏 */
+.relation_way {
+	width: 252px;
+	display: inline-block;
+	height: 112px;
+	text-align: center;
+	border-left:1px solid #4b4b4b;
+	text-align: center;
+}
+
+.relation_way p {
+	font-size: 22px;
+	margin: 0 0 5px 0;
+	line-height: 1;
+	color: #ff6700;
+}
+.relation_way a{
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	border: 1px solid rgb(255, 103, 0);
+	line-height: 30px;
+	color: rgb(255, 103, 0);
+	transition:all .2s ease 0s;
+}
+.relation_way a:hover{
+	background-color:rgb(255, 103, 0);
+	color: #fff;
+}
+.relation_way a:hover i{
+	color: #fff;
+}
+.relation_way i{
+	color: rgb(255, 103, 0);
+}
+#relation_way_01{
+	font-size: 12px;
+	color: #4b4b4b;
+}
+.relation_way_02{
+	height: 21px;
+	font-size: 14px;
+	color: #4b4b4b;
+	margin-top: 5px;
+}
+.relation_way_02 span{
+	cursor: pointer;
+    font-size: 20px;
+	text-align: center;
+	color: #262626;
+}
+.relation_way_02 span:hover,.foot_navigation li>a:hover{
+	color: rgb(255, 103, 0);
+}
+.foot_navigation{
+	margin-top: 80px;
+	height: 50px;
+}
+.foot_navigation li{
+	display: inline-flex;
+}
+.foot_navigation li>a{
+    float: left;
+	text-decoration:none;
+	color: #4b4b4b;
+	font-size: 16px;
+	margin-right: 10px;
+	margin-top: 5px;
+	line-height: 24px;
+}
+.foot_navigation span{
+	font-family: sans-serif;
+	color: #4b4b4b;
+	margin-top: 5px;
+	line-height: 22px;
+}
+.xiaomi_copyright{
+	background-color: #222222;
+    margin-top: 20px;
+	text-align: center;
+	color: #a7a7a7;
+	font-size: 12px;
+	padding: 5px 0 5px 0;
+}
+.xiaomi_copyright a{
+	text-decoration: none;
+	color: #a7a7a7;
+}
+.xiaomi_copyright a:hover{
+	text-decoration: underline;
+	color:rgb(255, 103, 0);
+}
+

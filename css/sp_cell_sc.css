@@ -1,0 +1,274 @@
+.sp_cell_sc,
+.sc {
+	width: 1214.09px;
+	height: 686px;
+	margin-top: 20px;
+	position: relative;
+	overflow: hidden;
+}
+
+/* 手机专栏的标题 */
+.sp_cell_sc>h2,
+.sc>h2 {
+	display: inline-block;
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 58px;
+	color: #333;
+}
+
+.sp_more {
+	width: 92px;
+	height: 58px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.sp_more a {
+	text-align: center;
+	height: 18px;
+	text-decoration: none;
+	color: #333;
+	font-size: 16px;
+	float: right;
+	line-height: 58px;
+}
+
+.sp_more>a:hover {
+	color: #ff6700;
+}
+
+/* 手机专栏的内容 */
+.csp_con_l {
+	width: 232px;
+	height: 614px;
+	margin-right: 10px;
+}
+
+.csp_con_l,
+.csp_con_r {
+	display: inline-block;
+}
+
+.csp_con_r>ul {
+	width: 980.09px;
+	height: 614px;
+	position: absolute;
+	top: 58px;
+}
+
+.sp_universal>ul>li {
+	float: left;
+	display: inline-block;
+	width: 232px;
+	height: 263px;
+	margin-right: 12.5px;
+	padding: 20px 0 20px 0;
+	margin-bottom: 11px;
+	background-color: #fff;
+	/* box-shadow: 0 0 10px #646464; */
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+
+}
+
+.sp_universal>ul>li:hover {
+	box-shadow: 5px 10px 20px #adadad;
+	top: -2px;
+	transition: all .2s linear;
+}
+
+.csp_con_l:hover {
+	margin-top: -2px;
+	box-shadow: 5px 10px 20px #adadad;
+	transition: all .2s linear;
+}
+
+.sp_universal>ul>li>a {
+	display: inline-block;
+	text-decoration: none;
+	color: #757575;
+}
+
+.sp_universal>ul>li>a>img {
+	width: 160px;
+	height: 160px;
+}
+
+.sp_universal>ul>li>a>h3 {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 14px;
+	font-weight: 400;
+	color: #333;
+}
+
+.sp_universal>ul>li>a>p {
+	width: 223px;
+	margin: 10px 0 0 0;
+	height: 18px;
+	font-size: 13px;
+	color: #b0b0b0;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.sp_universal span {
+	font-size: 14px;
+	color: #ff6700;
+}
+
+.sp_universal del {
+	font-size: 13px;
+	color: #b0b0b0;
+}
+
+.sp_home_apl {
+	position: relative;
+}
+
+.sc_Tab {
+	width: 200px;
+	height: 58px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #424242;
+	font-size: 16px;
+	text-align: right;
+}
+
+.sc_Tab>li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 0 0 15px;
+	margin-top: 10px;
+	padding-bottom: 3px;
+	font-family: mangal;
+	cursor: pointer;
+}
+
+.pich_on {
+	font-family: mangal;
+	color: #ff6700;
+	border-bottom: 2px solid #ff6700;
+}
+
+.sp_home_apl_con {
+	width: 1224.09px;
+}
+
+.d_none {
+	display: none;
+}
+
+.d_bloak {
+	display: inline-block;
+}
+
+/* 视频专栏 */
+.sp_video {
+	height: 356.9px;
+	padding-bottom: 20px;
+}
+
+.sp_vido_con>ul {
+	height: 285px;
+}
+
+.sp_vido_con>ul>li {
+	display: list-item;
+	width: 285px;
+	height: 295px;
+	background-color: #fff;
+	float: left;
+	margin-bottom: 14px;
+	text-align: center;
+	font: 14px;
+	margin: 0 9px;
+	cursor: pointer;
+	position: relative;
+}
+
+.sp_vido_con>ul>li:hover {
+	display: inline-block;
+	box-shadow: 5px 10px 20px #adadad;
+	top: -2px;
+	transition: all .2s linear;
+}
+.sp_vido_con a{
+	text-decoration: none;
+	color: #151515;
+}
+.sp_vido_con>ul>li>a>img {
+	width: 284px;
+	height: 180px;
+}
+.vido_play{
+	width: 18px;
+}
+.sp_vido_con>ul>li>a>span{
+	display: inline-block;
+	width: 35px;
+	height: 20px;
+	border: 1px solid #FFFDEF;
+	text-align: center;
+	background-color: transparent;
+	border-radius: 15px;
+	position: absolute;
+	top: 150px;
+	left: 5px;
+    transition: .2s;
+}
+.sp_vido_con h3{
+	margin-top: 10px;
+	font-size: 16px;
+    text-overflow: ellipsis;
+	font-weight: 400;
+}
+.sp_vido_con p{
+	margin-top: 20px;
+	text-overflow: ellipsis;
+	color: #515151;
+	font-size: 12px;
+}
+/* .sp_vido_con>ul>li>a>img:hover .sp_vido_con>ul>li>a>span{
+	background-color: rgb(234,118,13);
+} */
+/* 播放框 */
+.vido_window{
+	width: 800px;
+	height: 500px;
+    z-index: 11;
+	position: fixed;
+	top: 100px;
+	left:300px;
+	display: none;
+}
+.vido_window h3{
+	position: relative;
+	height: 55px;
+	border-bottom: 1px solid #1b1b1b;
+	background-color: #fff;
+}
+.vido_window span{
+	display: inline-block;
+	position: absolute;
+	line-height: 55px;
+	left: 5px;
+}
+.vido_window i{
+	display: inline-block;
+	position: absolute;
+	right: 5px;
+	font-size: 25px;
+	line-height: 55px;
+	cursor: pointer;
+}
+.vido_window i:hover{
+	color: red;
+}

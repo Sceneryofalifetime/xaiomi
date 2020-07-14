@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6608351",
+      "name": "左",
+      "font_class": "left",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    },
+    {
+      "icon_id": "8087637",
+      "name": "左",
+      "font_class": "zuo",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "10712002",
+      "name": "左",
+      "font_class": "right",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "14086283",
+      "name": "右",
+      "font_class": "you",
+      "unicode": "e744",
+      "unicode_decimal": 59204
+    }
+  ]
+}

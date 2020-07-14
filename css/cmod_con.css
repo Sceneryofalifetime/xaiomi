@@ -1,0 +1,79 @@
+.cmod_con{
+	position: absolute;
+	text-align: center;
+	width: 1366px;;
+	height: 233px;
+	z-index: 2;	
+	/* border: 1px solid #333; */
+	box-shadow: 0 0 5px rgb(190, 190, 190) inset;
+	display: none;
+	background-color: rgb(225,225,225);
+}
+.cmod_con ul{
+	width: 90%;
+	position: relative;
+	list-style: none;
+	left: 5%;
+}
+.cmod_con ul li{
+	top: 30px;
+	position: absolute;
+	display: none;
+}
+.cmod_con ul li img{
+	border-right: 1px solid rgb(171, 171, 171);
+	overflow: hidden;
+}
+.cmod_con ul li img:hover{
+	transform: scale(1.061);
+	transition: .5s;
+}
+.cmod_con ul li a{
+	position: relative;
+	float: left;
+	text-decoration: none;
+}
+.cmod_con ul li a img{
+	padding: 0px 20px 0px 20px;
+}
+.color_red{
+	color:rgb(255,103,0);
+	font-size: 10px
+}
+.color_brow{   /* brow -> brownness 褐色的缩写 */
+	color:rgb(55,55,55);
+	font-size: 12px
+}
+/* 侧边工具栏 */
+.toolbar{
+	position: fixed;
+	right: 5px;
+	top: 15%;
+	width: 60px;
+	height: 500px;
+	text-align: center;
+	background-color: transparent;
+}
+.toolbar a{
+	display: inline-block;
+	width: 60px;
+	height: 68px;
+	text-decoration: none;
+	background-color: transparent;
+	color: #464646;
+	font-size: 12px;
+	border-bottom: 1px solid #cacaca;
+	margin: 5px 0;
+}
+.toolbar span{
+	color: #7d7d7d;
+	font-size: 22px;
+	display: block;
+	margin-bottom: 3px;
+}
+.toolbar a:hover,.toolbar a:hover span{
+	color: #FF6700;
+}
+#bg_tp{
+	display: none;
+}

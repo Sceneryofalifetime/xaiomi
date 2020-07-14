@@ -1,0 +1,182 @@
+/* 
+     中间内容样式
+  */
+ .content {
+ 	position: relative;
+ 	width: 1349px;
+ 	height: auto;
+ 	background-color: rgb(213, 213, 213);
+ }
+
+ .sp_content {
+ 	position: relative;
+ 	width: 90%;
+ 	left: 5%;
+ }
+
+ /* 小米闪购 标题样式 */
+ .sp_thl_head {
+ 	width: 1214px;
+ 	height: 58px;
+ 	margin-top: 10px;
+ }
+
+ .sp_thl_head h2 {
+ 	font-size: 22px;
+ 	font-weight: 200;
+ 	line-height: 58px;
+ 	color: #333;
+ }
+
+ .sp_thl_body {
+ 	position: relative;
+ 	width: 1214.09;
+ 	height: 340px;
+ }
+
+ /* 倒计时 样式 */
+ .sp_cd {
+ 	width: 234px;
+ 	height: 300px;
+ 	border-top: 1px solid #e53935;
+ 	padding-top: 39px;
+ 	background-color: rgb(204, 203, 203);
+ 	text-align: center;
+ }
+
+ .sp_se {
+ 	/* 抢购场次 */
+ 	letter-spacing: 3px;
+ 	display: block;
+ 	font-size: 21px;
+ 	color: #ef3a3b;
+ 	padding-top: 15px;
+ }
+
+ .sp_thl_time {
+ 	/* 倒计时时间 */
+ 	width: 168px;
+ 	margin: 28px auto 0;
+ }
+
+ .sp_thl_time i {
+ 	width: 15px;
+ 	float: left;
+ 	height: 46px;
+ 	line-height: 46px;
+ 	color: #605751;
+ 	font-size: 28px;
+ 	font-style: normal;
+ }
+
+ .sp_thl_time span {
+ 	width: 46px;
+ 	height: 46px;
+ 	background: #605751;
+ 	color: #fff;
+ 	font-size: 24px;
+ 	line-height: 46px;
+ 	float: left;
+ }
+
+ .thl {
+ 	position: relative;
+ 	top: -340px;
+ 	left: 254px;
+ 	width: 960px;
+ 	height: 340px;
+ 	overflow: hidden;
+ }
+
+ .thl>ul {
+ 	width: 10000px;
+ }
+
+ .thl>ul>li {
+ 	position: relative;
+ 	float: left;
+ 	width: 232px;
+ 	height: 337px;
+ 	list-style: none;
+ 	border-top: 1px solid #0086B3;
+ 	margin-right: 10px;
+ 	background-color: rgb(255, 254, 254);
+ 	text-align: center;
+ }
+
+ .thl>ul>li:hover {
+ 	box-shadow: 0 0px 10px #828282;
+ }
+
+ .sp_thl_body>i {
+ 	position: relative;
+ 	display: inline-block;
+ 	width: 20px;
+ 	height: 14px;
+ 	padding: 3px 5px;
+ 	margin-left: -1px;
+ 	border: 1px solid #8d8d8d;
+ 	font-size: 16px;
+ 	line-height: 16px;
+ 	transition: color .5s;
+ 	color: #797979;
+ 	text-align: center;
+ 	cursor: pointer;
+ 	top: -710px;
+ 	left: 1135px;
+ }
+
+ .i_forbid {
+ 	background-color: rgb(235, 234, 234);
+ }
+
+ .sp_thl_body>i:hover {
+ 	background-color: rgb(231, 230, 230);
+ 	color: rgb(255, 103, 0);
+ }
+
+ .thl_shop {
+ 	padding-top: 39px;
+ }
+
+ .thl_shop>a>img {
+ 	width: 180px;
+ }
+
+ .thl_shop>a {
+ 	text-decoration: none;
+ }
+
+ .thl_shop>a>h3 {
+ 	margin: 0 20px 3px;
+ 	font-size: 14px;
+ 	font-weight: 400;
+ 	text-overflow: ellipsis;
+ 	color: #212121;
+ 	overflow: hidden;
+ 	white-space: nowrap;
+ }
+
+ .thl_shop>a>p {
+ 	height: 18px;
+ 	margin: 0 20px 12px;
+ 	font-size: 12px;
+ 	text-overflow: ellipsis;
+ 	color: #b0b0b0;
+ 	overflow: hidden;
+ 	white-space: nowrap;
+ }
+
+ .thl_shop>a>span {
+ 	font-size: 12px;
+ 	color: #ff6709;
+ }
+
+ .thl_shop>a>span>del {
+ 	color: #b0b0b0;
+ }
+
+ .Redmin9 {
+ 	width: 1214.09px;
+	margin-top:20px;
+ }

@@ -1,0 +1,103 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	font-size: 18px;
+	list-style: none;
+}
+
+.navigation {
+	width: 1349px;
+	height: 40px;
+	background-color: rgb(51, 51, 51);
+}
+
+.left_navigation {
+	display: inline-block;
+	margin-left: 5%;
+	width: 60%;
+}
+
+.navigation a {
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 40px;
+	color: rgb(172, 176, 176);
+	margin: 0 2.5px 0 2.5px;
+}
+
+.navigation span {
+	color: rgb(72, 72, 72);
+}
+
+.navigation a:hover {
+	color: #fff;
+}
+
+.app_OR img {
+	margin-top: 10px;
+	width: 70%;
+}
+
+.app_OR span {
+	font-size: 10px;
+}
+
+.app_OR {
+	top: 45px;
+	left: 625px;
+	position: absolute;
+	width: 100px;
+	text-align: center;
+	z-index: 10;
+	background-color: #fff;
+	box-shadow: 1px 1px 20px #6b6b6b;
+	display: none;
+}
+
+.right_navigation {
+	display: inline-block;
+	height: 40px;
+	position: relative;
+	top: 0;
+	left: 120px;
+}
+
+.car {
+	height: 40PX;
+	line-height: 40px;
+	border: none;
+	width: 120px;
+	position: absolute;
+	display: inline-block;
+	background-color: rgb(66, 66, 66);
+	text-align: center;
+	left: 150px;
+	cursor: pointer;
+}
+
+.car span {
+	color: rgb(172, 176, 176);
+	font-size: 12px;
+}
+
+.iconfont {
+	color: rgb(172, 176, 176);
+}
+
+.car_sp {
+	width: 325px;
+	z-index: 2;
+	height: 100px;
+	position: absolute;
+	left: -50px;
+	top: 42px;
+	text-align: center;
+	line-height: 100px;
+	background-color: rgba(255, 255, 255);
+	box-shadow: 10px 10px 10px #a8a8a8;
+	/* border-top-right-radius:4px ; */
+	display: none;
+}

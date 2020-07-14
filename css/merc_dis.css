@@ -1,0 +1,65 @@
+.xiaomi{
+	width: 1349px;
+}
+.merc_dis{
+	position: relative;
+	/* border: 0.0625rem solid #000000; */
+	width: 90%;
+	height: 170px;
+	margin-left: 5%;
+	margin-top: 12px;
+}
+.merc_dis>div{
+	position: absolute;
+	display:inline-block;
+}
+.merc_dis_left{
+	width: 234px;
+	height: 170px;
+	background-color: rgb(95,87,80);
+}
+.merc_dis_left ul li{
+	width: 70px;
+	height: 82px;
+	display: inline-flex;
+	flex-direction: row;
+	border-collapse: collapse;
+	border-left: 0.5px dotted rgb(109, 100, 92);
+	border-bottom: 0.5px dotted rgb(109, 100, 92);
+}
+.merc_dis_left>ul>li>a{
+	width: 70px;
+	height: 64px;
+	text-decoration: none;
+	color: #a1a1a1;
+	font-size: 12px;
+	text-align: center;
+	font-weight: 550;
+}
+.merc_dis_left>ul>li>a>img{
+	display: inline-block;
+	padding-top: 10px;
+	width: 20px;
+	display: inherit;
+	margin:15px auto 5px auto;
+}
+.merc_dis_left>ul>li>a:hover{
+	color: #bcbcbc;
+}
+.merc_dis_right{
+	width: 978px;
+	height: 170px;
+	top: 0;
+	left:234px ;
+	margin-left:12px;
+}
+.merc_dis_right>ul>li{
+	float: left;
+	width: 316px;
+	height: 170px;
+	margin-right:10px;
+}
+.merc_dis_right>ul>li>a>img{
+	width:316px;
+	height: 170px;
+}

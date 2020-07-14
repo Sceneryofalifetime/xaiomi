@@ -1,0 +1,104 @@
+body{
+	background-color: rgb(225, 225, 225);
+}
+
+.sp_body{
+	position: relative;
+	width: 90%;
+	left: 5%;
+}
+/* log切换样式 */
+.sp_navigation{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
+.sp_navigation_log{
+	cursor: pointer;
+	position: relative;
+	width: 55px;
+	height: 55px;
+	background-color: rgb(255,103,0);
+	overflow: hidden;
+	line-height: 55px;
+	top: 20px;
+}
+.home_img{
+	position: absolute;
+    top:3px;     /*3px*/
+	left:55px ;         /*4px*/
+	line-height: 55px;
+}
+/* 商品导航样式 */
+.sp_navigation_classify{
+	width: 650px;
+	line-height: 100px;
+	position: absolute;
+	top: 0;
+	left: 165px;
+}
+.sp_navigation_classify a{
+	font-size: 16px;
+	text-decoration: none;
+	color:#333;
+	padding: 0 5px;
+	height: 100px;
+	width: auto;
+}
+.sp_navigation_classify a:hover{
+	color:#ff6700;
+}
+/* 搜索框 样式 */
+.search{
+	width: 245px;
+	position: absolute;
+	line-height: 100px;
+	top: 0;
+	left: 916px;
+}
+.search_pull-down{
+	position: absolute;
+	width: 246px;
+	height: auto;
+	border: 0.5px solid #ff6700;
+	border-top: none;
+	z-index: 12;
+	top: 75px;
+	right: -2px;
+	background-color: rgb(225,225,225);
+	display: none;
+}
+.search_pull-down li{
+	line-height: 18px;
+	font-size: 14px;
+	color: #3a3a3a;
+	text-align: left;
+	padding: 8px 0 8px 15px;
+	cursor: pointer;
+}
+.search_pull-down li:hover{
+	color: #FF6700;
+}
+.search input{
+	width: 245px;
+	height: 45px;
+	background-color: rgb(225,225,225);
+	border: 0.0625rem solid rgb(50, 50, 50);
+}
+.sp_navigation i{
+	cursor: pointer;
+	position: absolute;
+	line-height: 46px;
+	width: 52px;
+	height: 45px;
+	border: 0.0625rem solid rgb(50, 50, 50);
+	top: 28px;
+	left: 1163px;
+	border-left: none;
+	color: rgb(97,97,97);
+}
+.search input{
+	box-sizing: content-box;
+}
+	
