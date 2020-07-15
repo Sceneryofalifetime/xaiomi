@@ -1,7 +1,7 @@
 .xiaomi{
 	width: 1349px;
 	margin: 0 auto;
-	background-color: #000000;
+	box-shadow: 0 0 10px #a2a2a2;
 }
 .merc_dis{
 	position: relative;
